@@ -36,4 +36,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project,
-          echo arm-none-eabi-gcc -v.
+          echo arm-none-eabi-gcc -v,
+          arm-none-eabi-gcc -v.
