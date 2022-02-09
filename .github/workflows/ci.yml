@@ -38,7 +38,7 @@ jobs:
       # Runs a install gcc set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          apt-get update,
-          apt-get install -y gcc-arm-none-eabi,
+          sudo apt-get update,
+          sudo apt-get install -y gcc-arm-none-eabi,
           echo arm-none-eabi-gcc -v,
           arm-none-eabi-gcc -v.
